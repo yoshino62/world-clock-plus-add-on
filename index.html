@@ -12,6 +12,9 @@
         href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock Plus Add-on Project</title>
 </head>
 
@@ -29,23 +32,23 @@
             <option value="">🇧🇷 Rio de Janeiro</option>
         </select>
 
-        <div class="city">
+        <div class="city" id="new-york">
             <div>
                 <h2>🇺🇸 New York</h2>
-                <div class="date">December 20th 2023</div>
+                <div class="date"></div>
             </div>
-            <div class="time"> 11:11:11 <small>AM</small></div>
+            <div class="time"> </div>
         </div>
 
-        <div class="city">
+        <div class="city" id="tokyo">
             <div>
                 <h2>🇯🇵 Tokyo</h2>
-                <div class="date">December 20th 2023</div>
+                <div class="date"></div>
             </div>
-            <div class="time"> 11:11:11 <small>AM</small></div>
+            <div class="time"></div>
         </div>
 
-        <div class="city">
+        <div class="city" id="sydney">
             <div>
                 <h2>🇦🇺 Sydney</h2>
                 <div class="date">December 20th 2023</div>
@@ -53,7 +56,7 @@
             <div class="time"> 11:11:11 <small>AM</small></div>
         </div>
 
-        <div class="city">
+        <div class="city" id="paris">
             <div>
                 <h2>🇫🇷 Paris</h2>
                 <div class="date">December 20th 2023</div>
